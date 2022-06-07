@@ -2,7 +2,7 @@ import Footer from './component/Footer/Footer';
 import Header from './component/Header/Header';
 import Clients from './component/Clients/Clients';
 import CreateSell from './component/CreateSell/CreateSell';
-import ExploreCategories from './component/ExploreCategories/ExploreCategories';
+import ExploreCategories from './component/ExploreCategories/ExploreCategories.jsx';
 import Faq from './component/Faq/Faq.jsx';
 import NotableDrops from './component/NotableDrops/NotableDrops';
 import ResourcesForGettingStarted from './component/ResourcesForGettingStarted/ResourcesForGettingStarted';
