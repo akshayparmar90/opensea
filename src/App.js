@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './component/Footer/Footer';
+import Header from './component/Header/Header';
+import Clients from './component/Clients/Clients';
+import CreateSell from './component/CreateSell/CreateSell';
+import ExploreCategories from './component/ExploreCategories/ExploreCategories';
+import Faq from './component/Faq/Faq';
+import NotableDrops from './component/NotableDrops/NotableDrops';
+import ResourcesForGettingStarted from './component/ResourcesForGettingStarted/ResourcesForGettingStarted';
+import TrendingInAllCategories from './component/TrendingInAllCategories/TrendingInAllCategories';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <div className='container'>
+       <CreateSell />
+      </div>
+      <NotableDrops />
+      <Clients />
+      <TrendingInAllCategories />
+      <ExploreCategories />
+      <Faq />
+      <ResourcesForGettingStarted />
+      <Footer />
+    </>
   );
 }
 
