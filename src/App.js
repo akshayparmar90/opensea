@@ -20,8 +20,8 @@ function App() {
       <TrendingInAllCategories />
       <div className='container'>
         <ExploreCategories />
+        <Faq />
       </div>
-      <Faq />
       <ResourcesForGettingStarted />
       <Footer />
     </>
