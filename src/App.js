@@ -3,7 +3,7 @@ import Header from './component/Header/Header';
 import Clients from './component/Clients/Clients';
 import CreateSell from './component/CreateSell/CreateSell';
 import ExploreCategories from './component/ExploreCategories/ExploreCategories';
-import Faq from './component/Faq/Faq';
+import Faq from './component/Faq/Faq.jsx';
 import NotableDrops from './component/NotableDrops/NotableDrops';
 import ResourcesForGettingStarted from './component/ResourcesForGettingStarted/ResourcesForGettingStarted';
 import TrendingInAllCategories from './component/TrendingInAllCategories/TrendingInAllCategories';
