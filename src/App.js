@@ -18,7 +18,9 @@ function App() {
       <NotableDrops />
       <Clients />
       <TrendingInAllCategories />
-      <ExploreCategories />
+      <div className='container'>
+        <ExploreCategories />
+      </div>
       <Faq />
       <ResourcesForGettingStarted />
       <Footer />

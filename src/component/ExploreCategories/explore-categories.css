@@ -1,0 +1,62 @@
+.explore-categories {
+    display: flex;
+    flex-direction: column;
+}
+.explore-categories-title {
+    text-align: center;
+    max-width: 350px;
+    align-self: center;
+}
+.explore-categories-title h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+    color: #263F9B;
+}
+.explore-categories-title p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #232323;
+}
+.explore-categories-desc {
+
+}
+.explore-categories-desc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.explore-categories-desc ul li {
+    width: 25%;
+    display: flex;
+    margin: 56px 0;
+}
+.explore-categories-list-content {
+    padding-left: 20px;
+}
+.explore-categories-list-content h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: #263F9B;
+}
+.explore-categories-list-content p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+.explore-categories-button {
+    align-self: center;
+}
+.explore-categories-button button {
+    background-color: #458DEA;
+    border-color: #458DEA;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
