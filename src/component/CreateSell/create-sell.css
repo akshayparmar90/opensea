@@ -1,0 +1,65 @@
+.create-sell {
+    background: linear-gradient(180deg, rgba(192, 197, 207, 0.24) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(120px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.create-sell-title-box {
+    max-width: 400px;
+    align-self: center;
+    text-align: center;
+    padding: 100px 0 40px 0;
+}
+.create-sell-title {
+    font-size: 35px;
+    color: #263F9B;
+    font-weight: 700;
+}
+.create-sell-desc {
+    font-size: 18px;
+    color: #181818;
+}
+.create-sell-detail-box {
+
+}
+.create-sell-detail-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.create-sell-detail-box ul li {
+    max-width: 275px;
+    width: 275px;
+}
+.create-sell-detail-box-item {
+    backdrop-filter: blur(81px);
+    border-radius: 8px;
+    text-align: center;
+    background: linear-gradient(180deg, #458DEA 0%, rgba(69, 141, 234, 0.17) 100%);
+    padding: 3px;
+    display: block;
+    position: relative;
+}
+.create-sell-detail-box-item-box {
+    background: #FFF;
+    border-radius: 8px;
+    padding: 22px;
+    min-height: 280px;
+}
+.create-sell-detail-box-item-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: #263F9B;
+    display: inline-block;
+}
+.create-sell-detail-box-item-content {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #232323;
+    display: inline-block;
+}
