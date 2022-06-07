@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/opensea/static/css/main.16101201.css",
+    "main.js": "/opensea/static/js/main.d5783b22.js",
+    "static/js/787.1e3c1259.chunk.js": "/opensea/static/js/787.1e3c1259.chunk.js",
+    "static/media/all.png": "/opensea/static/media/all.15b5020a5fbfc174efdd.png",
+    "static/media/visual-word.png": "/opensea/static/media/visual-word.cea548ebfe2c6ed0eb5f.png",
+    "static/media/treding-card.png": "/opensea/static/media/treding-card.f8568290dcb19910b231.png",
+    "static/media/art.png": "/opensea/static/media/art.4ef948b43beb9f80ecb7.png",
+    "static/media/collectibles.png": "/opensea/static/media/collectibles.042a2449516ec2567066.png",
+    "static/media/music.png": "/opensea/static/media/music.2d7de4c0b49b20b22e95.png",
+    "static/media/sports.png": "/opensea/static/media/sports.9131b0b13f3060605a2b.png",
+    "index.html": "/opensea/index.html",
+    "main.16101201.css.map": "/opensea/static/css/main.16101201.css.map",
+    "main.d5783b22.js.map": "/opensea/static/js/main.d5783b22.js.map",
+    "787.1e3c1259.chunk.js.map": "/opensea/static/js/787.1e3c1259.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16101201.css",
+    "static/js/main.d5783b22.js"
+  ]
+}
