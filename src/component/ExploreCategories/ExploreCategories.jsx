@@ -1,5 +1,5 @@
 import './explore-categories.css'
-import art from '../../images/art.png'
+import { exploreCategories } from './exploreCategories.js'
 const ExploreCategories = () => {
  return(
    <div className='explore-categories'>
@@ -9,62 +9,15 @@ const ExploreCategories = () => {
      </div>
      <div className='explore-categories-desc'>
        <ul>
-         <li>
-           <img src={art} alt="" />
-           <div className='explore-categories-list-content'>
-             <h3>Art</h3>
-             <p>Art is something that stimulates an individual’s thoughts</p>
-           </div>
-         </li>
-         <li>
-           <img src={art} alt="" />
-           <div className='explore-categories-list-content'>
-             <h3>Art</h3>
-             <p>Art is something that stimulates an individual’s thoughts</p>
-           </div>
-         </li>
-         <li>
-           <img src={art} alt="" />
-           <div className='explore-categories-list-content'>
-             <h3>Art</h3>
-             <p>Art is something that stimulates an individual’s thoughts</p>
-           </div>
-         </li>
-         <li>
-           <img src={art} alt="" />
-           <div className='explore-categories-list-content'>
-             <h3>Art</h3>
-             <p>Art is something that stimulates an individual’s thoughts</p>
-           </div>
-         </li>
-         <li>
-           <img src={art} alt="" />
-           <div className='explore-categories-list-content'>
-             <h3>Art</h3>
-             <p>Art is something that stimulates an individual’s thoughts</p>
-           </div>
-         </li>
-         <li>
-           <img src={art} alt="" />
-           <div className='explore-categories-list-content'>
-             <h3>Art</h3>
-             <p>Art is something that stimulates an individual’s thoughts</p>
-           </div>
-         </li>
-         <li>
-           <img src={art} alt="" />
-           <div className='explore-categories-list-content'>
-             <h3>Art</h3>
-             <p>Art is something that stimulates an individual’s thoughts</p>
-           </div>
-         </li>
-         <li>
-           <img src={art} alt="" />
-           <div className='explore-categories-list-content'>
-             <h3>Art</h3>
-             <p>Art is something that stimulates an individual’s thoughts</p>
-           </div>
-         </li>
+         {exploreCategories.map(e =>
+            <li>
+              <img src={e.img} alt="" />
+              <div className='explore-categories-list-content'>
+                <h3>{e.title}</h3>
+                <p>{e.content}</p>
+              </div>
+            </li>
+          )}
        </ul>
      </div>
      <div className='explore-categories-button'>
